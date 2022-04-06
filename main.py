@@ -31,7 +31,7 @@ session = boto3.Session(
         )
 
 s3 = session.resource('s3')
-my_bucket = s3.Bucket('desmondchongsoonchuen-employee')
+my_bucket = s3.Bucket(custombucket)
 
 output = {}
 table = 'employee'
