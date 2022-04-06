@@ -117,6 +117,11 @@ def deleteData(id):
     SQL_Delete = "Delete from employee where emp_id = {ID}".format(ID=data)
     cursor.execute(SQL_Delete)
     db_conn.commit()
+    strData = str(data)
+
+    for file in my_bucket.objects.all():
+        if file.key.startswith(strData):
+            client.delete_object(Bucket = custombucket, Key = file.key)
 
     return redirect(url_for('manage'))
 
@@ -128,6 +133,10 @@ def deleteMultiple():
         SQL_Delete = "Delete from employee where emp_id = {ID}".format(ID=n)
         cursor.execute(SQL_Delete)
         db_conn.commit()
+        strData = str(n)
+        for file in my_bucket.objects.all():
+            if file.key.startswith(strData):
+                client.delete_object(Bucket = custombucket, Key = file.key)
 
     return redirect(url_for('manage')) 
 
