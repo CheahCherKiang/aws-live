@@ -62,6 +62,7 @@ def profile():
 @app.route('/manage')
 def manage():
 
+    db_conn.commit()
     SQL = 'select emp_id, emp_name, email from employee'
     cursor.execute(SQL)
     data = cursor.fetchall()
