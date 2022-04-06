@@ -165,18 +165,14 @@ def fectdata():
             detail.append(x[7])
             detail.append(x[8])
             detail.append(x[9])
-            print(detail)
-            
-            working_directory = r"C:\Users\Desmond\Documents\Taruc\Year 2 Sem 3\Cloud Computing\Assignment\static\image"
+            print(detail)            
+        
             #summaries = your_bucket.objects.all()
             
             for file in my_bucket.objects.all():
                 if file.key.startswith(emp_id):
-                    local_file_name = os.path.join(working_directory, file.key.split("/")[0])
-                    print(f"Downloading {file.key} to {local_file_name}")
-                    my_bucket.download_file(file.key,local_file_name)
-                    detail.append(file.key)         
-                    print(f"Successful Downloading  to {local_file_name}")
+                    detail.append(file.key)       
+
                     
            
     print(detail)
