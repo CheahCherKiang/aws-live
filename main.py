@@ -205,7 +205,7 @@ def UpdateEmp():
 
 
     cursor = db_conn.cursor()
-    update_sql = "UPDATE employee SET emp_id = %s, emp_name = %s, email = %s, emp_ic = %s, emp_dob = %s, gender = %s, benefits = %s, payroll = %s, hiredate = %s, leavingdate = %s WHERE emp_id = %s"
+    update_sql = "UPDATE employee SET emp_id = %s, emp_name = %s, email = %s, emp_ic = %s, emp_dob = %s, gender = %s, benefits = %s, payroll = %s, hireddate = %s, leavingdate = %s WHERE emp_id = %s"
     cursor.execute(update_sql,(emp_id,emp_name,email,emp_ic,emp_dob,gender,benefits,payroll, hireddate, leavingdate,emp_id))
     db_conn.commit()
 
