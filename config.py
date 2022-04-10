@@ -5,6 +5,6 @@ customuser = "aws_user"
 custompass = "bait3273"
 customdb = "employees"
 
-# access_key = 'ASIA23IK2VOCP63WKHPL'
-# secret_access_key = 'IaVnOnhl0SpPs37FdONfu7dSq0rrni+tKQyQBzK8'
-# session_token = 'FwoGZXIvYXdzEHUaDGX7ePWlYZfcNsChiCLUAVPITjH002OS3FEElUdR3gFTBH03DCxSUn2VwtAmXegeyhAytp+ZtZRF4DaFX+Ok5CfrLzRAV9bp37TiGyse98fwx4321EUPo8N74w98nTXz3D9RWPlUlEMigigcFuXU5+nRQWg01pmAUlovRBeW6O7YLHP1ghuFCvqD8DhgcEL83uhD4pQoXGg0FV9MmSs00MypUrjRuA8FICam65deu6z9g7X3p1ZEa5kheaxUDTDa/8W9vkXiV10KMbBikEwlZ0EwXEEBj/4I+zkjpLti0WIwgODIKNKSyZIGMi3tJmSILd5h+OZJMRacv9RhM7zsxqWzej2VprIUI4epb8Mv59gvzGqi+c/eMxE='
+# access_key = 'ASIA6HZORFFQBBZUXNHL'
+# secret_access_key = 'xagIq9BCp+zIZv/ECeAHrEUv+SCTROFbQ3TGIkVB'
+# session_token = 'FwoGZXIvYXdzEH4aDPOVnC8Em6I4pmNddCLRAZpuD0qqVQshvNiawnMwUgMmwdLKw5Zx57ZvUC/39AmyKpDi0W1uvYfTPdx+nkDPpUNCq68tIEWX3pHR1XiPfZaybucmk6OZHB0gKaN1NMS2v+phktyHWHS2t0Fo8DuXLiAHGZn+SLXQ47WWvnf1XZGaGyTtl3gJgBfh+BBB90FDOXKHwvwdqhVkDji/SLSWfJs00oFAin/kEz419t+jEEJ8CmONe/Up55GM6X7h77UDc1Mf62XekoyEXc+s5DiBkSlc0iej58vQfG2qKeURd+krKIyTy5IGMi3gePflZoHwrXFfjCs7OlXiItHO5K0IEojp0ve0lVKJzpeGrWk4nleGH6eQyKc='
